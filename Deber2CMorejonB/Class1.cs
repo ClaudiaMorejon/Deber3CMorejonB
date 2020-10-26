@@ -7,11 +7,9 @@ namespace Deber2CMorejonB
 {
     class Class1
     {
-        public void LimpiarLabel(Entry txt1)
+        public void LimpiarLabel(Entry entrada)
         {
-            txt1.Text = "";
+            entrada.Text = "";
         }
-
-        
     }
 }
