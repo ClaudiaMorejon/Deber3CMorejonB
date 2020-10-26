@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Deber2CMorejonB.Calificaciones">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Label Text="Sistema de calificaciones" 
+                   HorizontalTextAlignment="Center" 
+                   VerticalTextAlignment="Center" 
+                   FontSize="20" 
+                   TextColor="Black"
+                   FontAttributes="Bold">
+            </Label>
+
+            <Entry x:Name="txtNota1" 
+                   Placeholder="Ingrese la nota de seguimiento 1 " 
+                   Keyboard="Numeric">
+                
+            </Entry>
+
+            <Entry x:Name="txtExamen1" 
+                   Placeholder="Ingrese la nota del examen 1 " 
+                   Keyboard="Numeric">
+
+            </Entry>
+
+            <Entry x:Name="txtNota2" 
+                   Placeholder="Ingrese la nota de seguimiento 2 " 
+                   Keyboard="Numeric">
+
+            </Entry>
+
+            <Entry x:Name="txtExamen2" 
+                   Placeholder="Ingrese la nota del examen 2 " 
+                   Keyboard="Numeric">
+
+            </Entry>
+
+
+            <StackLayout  Orientation="Horizontal">
+
+                <Label Text="Nota 1 " 
+                   TextColor="Black"
+                   VerticalOptions="Center"
+                    FontSize="18">
+                </Label>
+                
+                <Entry x:Name="txtResultadoNota1" 
+                       HorizontalOptions="FillAndExpand" 
+                       IsReadOnly="True"
+                       FontSize="18"
+                       HorizontalTextAlignment="Center">
+
+                </Entry>
+
+
+                <Label Text="Examen 1 " 
+                   TextColor="Black"
+                   VerticalOptions="Center"
+                   FontSize="18">
+                </Label>
+
+                <Entry x:Name="txtResultadoExamen1" 
+                       IsReadOnly="True"
+                       FontSize="18"
+                       HorizontalOptions="FillAndExpand" 
+                       HorizontalTextAlignment="Center">
+
+                </Entry>
+
+                <Label Text="Nota Parcial 1 " 
+                   TextColor="Black"
+                   VerticalOptions="Center"
+                   FontSize="18">
+                </Label>
+
+                <Entry x:Name="txtNotaParcial1" 
+                       IsReadOnly="True"
+                       FontSize="18"
+                       HorizontalOptions="FillAndExpand" 
+                       HorizontalTextAlignment="Center">
+
+                </Entry>
+
+            </StackLayout>
+
+            <StackLayout  Orientation="Horizontal">
+
+                <Label Text="Nota 2 " 
+                   TextColor="Black"
+                   VerticalOptions="Center"
+                    FontSize="18">
+                </Label>
+
+                <Entry x:Name="txtResultadoNota2" 
+                       HorizontalOptions="FillAndExpand" 
+                       IsReadOnly="True"
+                       FontSize="18"
+                       HorizontalTextAlignment="Center">
+
+                </Entry>
+
+
+                <Label Text="Examen 2 " 
+                   TextColor="Black"
+                   VerticalOptions="Center"
+                   FontSize="18">
+                </Label>
+
+                <Entry x:Name="txtResultadoExamen2" 
+                       IsReadOnly="True"
+                       FontSize="18"
+                       HorizontalOptions="FillAndExpand" 
+                       HorizontalTextAlignment="Center">
+
+                </Entry>
+
+                <Label Text="Nota Parcial 2 " 
+                   TextColor="Black"
+                   VerticalOptions="Center"
+                   FontSize="18">
+                </Label>
+
+                <Entry x:Name="txtNotaParcial2" 
+                       IsReadOnly="True"
+                       FontSize="18"
+                       HorizontalOptions="FillAndExpand" 
+                       HorizontalTextAlignment="Center">
+
+                </Entry>
+                
+
+
+            </StackLayout>
+
+            <Label Text="Nota Final " 
+                   TextColor="Black"
+                   VerticalOptions="Center"
+                   FontSize="18"
+                   HorizontalOptions="Center">
+            </Label>
+
+            <Entry x:Name="txtFinal" 
+                       IsReadOnly="True"
+                       FontSize="18"
+                       HorizontalOptions="FillAndExpand" 
+                       HorizontalTextAlignment="Center">
+
+            </Entry>
+
+
+
+
+            <Button x:Name="btnNotas1"
+                    Text="Ingresar notas"
+                    Clicked="btnNotas1_Clicked">
+            </Button>
+
+            <Button x:Name="btnLimpiar"
+                    Text="Limpiar"
+                    Clicked="btnLimpiar_Clicked">
+            </Button>
+            
+            <Entry x:Name="txtEstado" 
+                       IsReadOnly="True"
+                       FontSize="24"
+                       HorizontalOptions="FillAndExpand" 
+                       HorizontalTextAlignment="Center"
+                       FontAttributes="Bold">
+
+            </Entry>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
