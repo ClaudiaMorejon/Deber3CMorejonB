@@ -4,9 +4,26 @@
              x:Class="Deber2CMorejonB.Login">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Login"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Login" 
+                   HorizontalOptions="Center"
+                   FontSize="20"/>
+
+            <Entry x:Name="txtUser"
+                   Placeholder="Ingrese el usuario"
+                   HorizontalTextAlignment="Center">
+            </Entry>
+
+
+            <Entry x:Name="txtPassword"
+                   Placeholder="Ingrese la clave"
+                   IsPassword="True"
+                   HorizontalTextAlignment="Center">
+            </Entry>
+
+            <Button x:Name="btnLogin"
+                    Text="Iniciar sesión"
+                    Clicked="btnLogin_Clicked">
+            </Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

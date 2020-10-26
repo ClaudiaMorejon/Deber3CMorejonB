@@ -5,6 +5,13 @@
     <ContentPage.Content>
         <StackLayout>
 
+            <Label x:Name="lblUser"
+                   Text="Bienvenido "
+                   FontSize="24"
+                   HorizontalTextAlignment="Center"
+                   TextColor="Black">
+                
+            </Label>
             <Label Text="Sistema de calificaciones" 
                    HorizontalTextAlignment="Center" 
                    VerticalTextAlignment="Center" 

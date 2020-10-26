@@ -15,9 +15,11 @@ namespace Deber2CMorejonB
     {
         readonly Class1 clase1 = new Class1();
 
-        public Calificaciones()
+        public Calificaciones(string user,string password)
         {
             InitializeComponent();
+            string usuario = lblUser.Text;
+            lblUser.Text = usuario + user;
         }
 
         private void btnNotas1_Clicked(object sender, EventArgs e)

@@ -10,7 +10,7 @@ namespace Deber2CMorejonB
         {
             InitializeComponent();
 
-            MainPage = new Calificaciones();
+            MainPage = new NavigationPage( new Login());
            
         }
 
